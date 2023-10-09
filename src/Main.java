@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        Burger myBurger = new BasicBurger();
+        Burger myBurger = BasicBurger.getInstance();
         System.out.println("Welcome to burger builder tool!");
         System.out.println("Do you want to start? (1 for yes, 0 for no)");
         int startChoice = scanner.nextInt();
