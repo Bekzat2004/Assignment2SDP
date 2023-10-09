@@ -8,22 +8,22 @@ public class Main {
         int startChoice = scanner.nextInt();
         if (startChoice == 1) {
             System.out.println("Excellent!");
-            System.out.println("Do you want to add extra cutlet? (1 for yes, 0 for no)");
+            System.out.println("Do you want to add extra cutlet? (1 for yes, any other respond for no)");
             int cutletChoice = scanner.nextInt();
             if (cutletChoice == 1) {
                 myBurger = new CutletDecorator(myBurger);
             }
-            System.out.println("Do you want to add cheese? (1 for yes, 0 for no)");
+            System.out.println("Do you want to add cheese? (1 for yes, any other respond for no)");
             int cheeseChoice = scanner.nextInt();
             if (cheeseChoice == 1) {
                 myBurger = new CheeseDecorator(myBurger);
             }
-            System.out.println("Do you want to add tomato? (1 for yes, 0 for no)");
+            System.out.println("Do you want to add tomato? (1 for yes, any other respond for no)");
             int tomatoChoice = scanner.nextInt();
             if (tomatoChoice == 1) {
                 myBurger = new TomatoDecorator(myBurger);
             }
-            System.out.println("Do you want to add salad? (1 for yes, 0 for no)");
+            System.out.println("Do you want to add salad? (1 for yes, any other respond for no)");
             int saladChoice = scanner.nextInt();
             if (saladChoice == 1) {
                 myBurger = new SaladDecorator(myBurger);

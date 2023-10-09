@@ -6,6 +6,6 @@ class BasicBurger implements Burger {
 
     @Override
     public double getCost() {
-        return 5.0;
+        return 1500;
     }
 }
